@@ -36,7 +36,7 @@ export default function Certificates() {
                     </p>
 
                     <a
-                        href="https://www.dicoding.com/certificates/XXXXX"
+                        href="https://www.dicoding.com/certificates/N9ZO2170RPG5"
                         target="_blank"
                         className="mt-4 inline-block text-sm text-blue-400 hover:underline"
                     >
