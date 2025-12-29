@@ -17,9 +17,11 @@ export default function Certificates() {
             </p>
 
             {/* Divider */}
+
             <div className="mt-8 h-px w-full bg-gradient-to-r from-blue-500/60 to-transparent" />
 
             {/* Certificate Card */}
+            {/*ini sert more certificate cards as needed*/}
             <div className="mt-10 space-y-6">
                 <div className="rounded-xl border border-zinc-800 p-6 hover:border-blue-500/60 transition">
                     <h3 className="text-lg font-semibold text-white">
