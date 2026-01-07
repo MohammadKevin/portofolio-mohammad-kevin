@@ -25,27 +25,29 @@ export default function Certificates() {
             <div className="mt-10 space-y-6">
                 <div className="rounded-xl border border-zinc-800 p-6 hover:border-blue-500/60 transition">
                     <h3 className="text-lg font-semibold text-white">
-                        Belajar Dasar Pemrograman JavaScript
+                        Coding Camp 2026 – JavaScript Fundamentals Assessment
                     </h3>
 
                     <p className="mt-1 text-sm text-zinc-400">
-                        Dicoding Indonesia · 2025
+                        Dicoding Indonesia · DBS Foundation · 2025
                     </p>
 
                     <p className="mt-3 text-sm text-zinc-300">
-                        Covers JavaScript fundamentals, logic, control flow, and
-                        best practices for modern web development.
+                        Successfully passed the JavaScript fundamentals assessment as part of the
+                        Coding Camp 2026 selection process, covering programming logic, control flow,
+                        and core JavaScript concepts.
                     </p>
 
                     <a
                         href="https://www.dicoding.com/certificates/N9ZO2170RPG5"
                         target="_blank"
+                        rel="noopener noreferrer"
                         className="mt-4 inline-block text-sm text-blue-400 hover:underline"
                     >
                         View Certificate →
                     </a>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }

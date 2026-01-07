@@ -17,28 +17,35 @@ export default function Projects() {
             <div className="mt-8 h-px w-full bg-gradient-to-r from-blue-500/60 to-transparent" />
             <div className="mt-12 grid gap-6 md:grid-cols-2">
                 <ProjectCard
-                    title="Secure REST API"
-                    tech="Node.js · Express · Prisma · JWT · MySQL"
-                    description="Role-based authentication system with secure CRUD operations and scalable API architecture."
-                />
-
-                <ProjectCard
-                    title="Admin Dashboard"
-                    tech="Next.js · Tailwind CSS · Protected Routes"
-                    description="Admin dashboard with authentication, clean UI, and a maintainable project structure."
-                />
-
-                <ProjectCard
-                    title="Authentication System"
-                    tech="JWT · bcrypt · REST API"
-                    description="Complete authentication flow including login, registration, token refresh, and secure password hashing."
+                    title="Admin Dashboard Fullstack"
+                    tech="Next.js · Node.js · Express · Prisma · JWT · MySQL"
+                    description="Fullstack admin dashboard dengan sistem autentikasi berbasis role, REST API aman, dan halaman admin yang diproteksi."
                 />
 
                 <ProjectCard
                     title="Portfolio Website"
                     tech="Next.js · TypeScript · Tailwind CSS"
-                    description="Personal portfolio designed to present projects, skills, and experience with a modern UI."
+                    description="Website portofolio pribadi untuk menampilkan profil, skill, dan project dengan desain modern dan responsif."
                 />
+
+                <ProjectCard
+                    title="Attendance System"
+                    tech="Web App · Database · CRUD"
+                    description="Sistem presensi digital untuk mencatat kehadiran pengguna secara otomatis dan terstruktur."
+                />
+
+                <ProjectCard
+                    title="Store Management System"
+                    tech="Web App · CRUD · Database"
+                    description="Aplikasi manajemen toko sederhana untuk pengelolaan produk dan pencatatan transaksi UMKM."
+                />
+
+                <ProjectCard
+                    title="Voice Command Project"
+                    tech="Python · Voice Recognition"
+                    description="Project eksperimen Python berbasis voice command untuk interaksi dan otomatisasi sederhana."
+                />
+
             </div>
         </section>
     );
