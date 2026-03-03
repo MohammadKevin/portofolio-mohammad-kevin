@@ -9,7 +9,7 @@
   }
 
   body {
-    background: radial-gradient(circle at top, #0f1c3f, var(--background));
+    background: radial-gradient(circle at top, #355872, var(--background));
     color: var(--foreground);
     font-family: Inter, Arial, Helvetica, sans-serif;
   }
@@ -21,13 +21,14 @@
   }
 
   .btn-primary {
-    @apply px-6 py-3 rounded-lg font-semibold transition duration-200
-           bg-blue-500 text-white hover:bg-blue-600;
+    @apply px-6 py-3 rounded-lg font-semibold transition duration-200 bg-blue-500 text-white hover:bg-blue-600;
   }
 
   .btn-outline {
-    @apply px-6 py-3 rounded-lg font-semibold transition duration-200
-           border border-blue-500 text-blue-400
-           hover:bg-blue-500 hover:text-white;
+    @apply px-6 py-3 rounded-lg font-semibold transition duration-200 border border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 }
