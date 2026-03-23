@@ -17,8 +17,7 @@ export default function Footer() {
                             Mohammad Kevin
                         </h3>
                         <p className="mt-4 text-sm text-gray-400 leading-relaxed max-w-sm">
-                            Backend & Fullstack Developer focused on building secure,
-                            scalable, and high-performance web applications with clean architecture.
+                            Backend developer with a passion for building secure, scalable, and high-performance applications. I specialize in REST API design, clean architecture, and modern web technologies to create efficient solutions that meet user needs and industry standards.
                         </p>
                     </div>
 
@@ -57,7 +56,7 @@ export default function Footer() {
                         <ul className="space-y-3 text-sm text-gray-400">
                             <li>
                                 <Link
-                                    href="https://github.com/username"
+                                    href="https://github.com/MohammadKevin"
                                     target="_blank"
                                     className="hover:text-blue-400 transition"
                                 >
@@ -66,7 +65,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    href="https://linkedin.com/in/username"
+                                    href="https://www.linkedin.com/in/muhamad-kevin-arif-rudianto-945733347/"
                                     target="_blank"
                                     className="hover:text-blue-400 transition"
                                 >
@@ -75,7 +74,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    href="mailto:your@email.com"
+                                    href="mailto:kvn4.200581@gmail.com"
                                     className="hover:text-blue-400 transition"
                                 >
                                     Email

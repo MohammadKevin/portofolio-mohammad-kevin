@@ -8,45 +8,46 @@ export default function Home() {
       title: "Kos Hunter – Booking System",
       desc: "Modern boarding house booking system with authentication, room management, booking history, and secure REST API integration.",
       tech: ["Next.js", "NestJS", "Prisma", "PostgreSQL"],
-      image: "/image1.png",
+      image: "/kost-hunter.png",
     },
     {
-      title: "REST API Architecture",
-      desc: "Scalable RESTful API with JWT authentication and clean architecture implementation for high performance systems.",
-      tech: ["Node.js", "Express.js", "JWT"],
-      image: "/image1.png",
+      title: "mini E-commerce Platform",
+      desc: "Full-featured e-commerce platform with product management, shopping cart, user authentication, and secure payment integration.",
+      tech: ["Node.js", "Express.js", "JWT", "MySQL"],
+      image: "/3.png",
     },
     {
-      title: "Admin Dashboard System",
-      desc: "Admin dashboard with analytics, role management, and real-time API integration.",
+      title: "Laundry Management System",
+      desc: "Comprehensive laundry management system with order tracking, inventory management, user authentication, and REST API integration.",
       tech: ["Next.js", "Tailwind", "API Integration"],
-      image: "/image1.png",
+      image: "/laundry-go.png",
     },
   ]
 
   const certificates = [
     {
-      title: "Backend Development Certification",
+      title: "Introduction to Financial Literacy",
       issuer: "Dicoding Indonesia",
       description:
-        "Comprehensive backend development course covering API design, database management, authentication, and security best practices.",
-      year: "2024",
-      image: "/image1.png",
+        "Completed a course on financial literacy covering budgeting, personal finance management, saving strategies, and basic financial planning concepts.",
+      year: "2025",
+      image: "/certificate-dicoding.png",
     },
     {
-      title: "JavaScript Programming Mastery",
-      issuer: "Udemy",
+      title: "Top 10 – Future Founders League 2026",
+      issuer: "Forum Bisnis Cendekia",
       description:
-        "Advanced JavaScript concepts including asynchronous programming, ES6+, clean coding patterns, and real-world project implementation.",
-      year: "2023",
-      image: "/image1.png",
+        "Ranked Top 10 in the national Future Founders League 2026 Business Model Canvas competition, showcasing strong capabilities in problem-solving, business modeling, and startup strategy development.",
+      year: "2026",
+      image: "/certificate1.png",
     },
     {
-      title: "Fullstack Web Development",
-      issuer: "Online Course Platform",
+      title: "Certificate Not Available",
+      issuer: "Unknown",
       description:
-        "End-to-end fullstack development covering frontend frameworks, backend architecture, REST APIs, and database integration.",
-      year: "2024",
+        "Certification data is currently not available or has not been uploaded yet.",
+      year: "-",
+      status: "Not Found",
       image: "/image1.png",
     },
   ]
@@ -57,7 +58,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-16 grid lg:grid-cols-2 gap-16 items-center">
           <div className="text-center lg:text-left">
             <p className="text-xs uppercase tracking-[6px] text-blue-400 font-semibold mb-6">
-              Welcome to my world
+              Welcome to my Portfolio
             </p>
 
             <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
@@ -69,7 +70,7 @@ export default function Home() {
             </h1>
 
             <h2 className="mt-6 text-lg md:text-xl text-gray-300 font-medium">
-              Backend & Fullstack Developer
+              Backend <span className="text-[#3b8cd8]">Developer</span>
             </h2>
 
             <p className="mt-6 text-base md:text-lg text-gray-400 leading-relaxed max-w-xl mx-auto lg:mx-0">
@@ -77,7 +78,7 @@ export default function Home() {
               <span className="text-blue-300 font-medium">
                 secure, scalable REST APIs
               </span>{" "}
-              and modern web applications with strong focus on clean architecture
+              and modern with strong focus on clean architecture
               and performance optimization.
             </p>
 
@@ -96,14 +97,14 @@ export default function Home() {
             <div className="relative group">
               <div className="absolute -inset-8 rounded-full bg-blue-500/20 blur-3xl opacity-70 group-hover:opacity-100 transition duration-500"></div>
 
-              <div className="relative w-[320px] h-[320px] md:w-[360px] md:h-[360px] rounded-full p-[6px] bg-gradient-to-tr from-blue-500 via-blue-400 to-cyan-400 shadow-2xl shadow-blue-500/30">
-                <div className="relative w-full h-full rounded-full overflow-hidden bg-[#0a192f]">
+              <div className="relative w-[320px] h-[320px] md:w-[380px] md:h-[380px] rounded-full p-[6px] bg-gradient-to-tr from-blue-500 via-blue-400 to-cyan-400 shadow-2xl shadow-blue-500/30">
+                <div className="relative w-full h-full rounded-full overflow-hidden bg-[#335992]">
                   <Image
-                    src="/image1.png"
+                    src="/my.png"
                     alt="Mohammad Kevin"
                     fill
                     priority
-                    className="object-cover scale-105 group-hover:scale-110 transition duration-500"
+                    className="object-cover scale-100 group-hover:scale-105 transition duration-500"
                   />
                 </div>
               </div>
@@ -112,26 +113,23 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="w-full py-28">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="text-sm uppercase tracking-[5px] text-blue-400 font-semibold mb-4">
-            About Me
-          </p>
-
-          <p className="mt-6 text-gray-400 text-base md:text-lg leading-relaxed">
-            I am a passionate Backend & Fullstack Developer experienced in designing and developing robust web applications. I enjoy transforming complex technical requirements into scalable and maintainable systems.
-          </p>
-
-          <p className="mt-6 text-gray-400 text-base md:text-lg leading-relaxed">
-            With strong expertise in API architecture, database design, and modern frontend frameworks, I aim to deliver high-quality digital products that are secure, efficient, and user-focused.
-          </p>
+      <section id="about" className="w-full py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="mb-14">
+            <h2 className="text-2xl md:text-4xl font-bold text-blue-500">
+              About Me
+            </h2>
+            <p className="text-gray-400 mt-4 max-w-3xl text-[18px] leading-relaxed">
+              I&apos;m a passionate backend developer with some experience in the frontend space, with a strong focus on building secure, scalable, and high-performance applications. With expertise in REST API design, clean architecture, and modern web technologies, I strive to create efficient solutions that meet user needs and industry standards.
+            </p>
+          </div>
         </div>
       </section>
 
       <section id="skills" className="w-full py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-14">
-            <h2 className="text-3xl md:text-4xl font-bold">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-500">
               Skills & Expertise
             </h2>
             <p className="text-gray-400 mt-4 max-w-2xl">
@@ -146,7 +144,7 @@ export default function Home() {
             />
             <SkillCard
               title="Frontend"
-              items={["React.js", "Next.js", "Tailwind CSS", "Responsive UI Design"]}
+              items={["React.js", "Next.js", "Tailwind CSS", "Responsive UI Design", "API Integration", "Authentication & Authorization", "HTML & CSS"]}
             />
             <SkillCard
               title="Tools & Others"
@@ -159,7 +157,7 @@ export default function Home() {
       <section id="projects" className="w-full py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-14">
-            <h2 className="text-3xl md:text-4xl font-bold">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-500">
               Featured Projects
             </h2>
             <p className="text-gray-400 mt-4 max-w-2xl">
@@ -211,7 +209,7 @@ export default function Home() {
       <section id="certifications" className="w-full py-24 pb-32">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-14">
-            <h2 className="text-3xl md:text-4xl font-bold">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-500">
               Certifications
             </h2>
             <p className="text-gray-400 mt-4 max-w-2xl">
