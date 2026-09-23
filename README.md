@@ -12,26 +12,26 @@
 
 ---
 
-## 📌 Overview
+## Overview
 A showcase portfolio platform highlighting software engineering case studies, modern UI components, and software development skills.
 
 ---
 
-## ✨ Key Features
+## Key Features
 - Curated project catalog with detailed architecture case studies
 - Experience timeline and technical skill badges
 - Clean, modern typography and dark theme UI
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Framework**: Next.js
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS, React Icons
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```text
 portofolio-mohammad-kevin/
 ├── app/
@@ -40,7 +40,7 @@ portofolio-mohammad-kevin/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 Make sure you have the required runtimes and tools installed on your machine:
@@ -57,7 +57,7 @@ npm run dev
 
 ---
 
-## 👤 Author
+## Author
 **Mohammad Kevin Arif Rudianto**
 - **GitHub:** [@MohammadKevin](https://github.com/MohammadKevin)
 - **Portfolio:** [portfolio-mohammadkevin.vercel.app](https://portfolio-mohammadkevin.vercel.app)
@@ -66,9 +66,9 @@ npm run dev
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 <div align="center">
-⭐️ If you found this repository useful, please consider giving it a star!
+If you found this repository useful, please consider giving it a star!
 </div>
