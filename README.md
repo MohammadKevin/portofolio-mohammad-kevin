@@ -18,9 +18,9 @@ A showcase portfolio platform highlighting software engineering case studies, mo
 ---
 
 ## ✨ Key Features
-- ⚡ **Curated project catalog with detailed architecture case studies**: Curated project catalog with detailed architecture case studies
-- ⚡ **Experience timeline and technical skill badges**: Experience timeline and technical skill badges
-- ⚡ **Clean, modern typography and dark theme UI**: Clean, modern typography and dark theme UI
+- Curated project catalog with detailed architecture case studies
+- Experience timeline and technical skill badges
+- Clean, modern typography and dark theme UI
 
 ---
 
